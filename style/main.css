@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.inpubox{
+    display: flex;
+    flex-direction: column;
+}
+
+.conatiner{
+    background-color: white;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 10em;
+
+}
+input, select{
+    background-color: darksalmon;
+    padding: 1em;
+    margin: 1em;
+
+}
+.head{
+    font-size: 2em;
+    margin: 2em;
+    color: blue;
+    text-align: center;
+}
+
+
+
+#btn{
+    background-color: crimson;
+    padding: 1em;
+    color: white;
+    border-radius: 1px;
+    
+}
+
+.theTable{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: centr;
+    width: 100%;
+}
+
+.theTable table thead{
+    background-color: purple;
+    padding: 2em;
+    color: white;
+}
+.theTable thead tr{
+    width: 100%;
+}
